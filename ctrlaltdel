@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PATH=/usr/bin:/usr/sbin
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
 MSG="System is going down..."
 
 # We check for this file after receiving a SIGCONT to move to stage3
